@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 
 
-img = Image.open('squarelogo.png')
-st.set_page_config(page_title="Face Cartoonizer",page_icon=img,layout="wide")
+
+st.set_page_config(page_title="Face Cartoonizer",layout="wide")
 
 
 st.markdown("<h1 style='text-align: Center; color: red;font-size:60px;'>Facial Cartoonizer!</h1>", unsafe_allow_html=True)
