@@ -7,8 +7,7 @@ from torch import square
 #from streamlit_lottie import st_lottie  # pip install streamlit-lottie
 #import json
 
-img = Image.open('squarelogo.png')
-st.set_page_config(page_title="Face Cartoonizer",page_icon=img,layout="wide")
+
 
 ###############################################################################
 def cartoonization (img):
